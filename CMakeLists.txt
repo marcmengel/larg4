@@ -15,6 +15,7 @@ set(larg4_FW_DIR fw)
 find_package(cetmodules REQUIRED)
 find_package(canvas_root_io)
 find_package(art)
+find_package(Boost filesystem system)
 
 include(CetCMakeEnv)
 cet_cmake_env()
